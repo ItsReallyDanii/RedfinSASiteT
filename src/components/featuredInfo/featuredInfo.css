@@ -1,0 +1,58 @@
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuredItem{
+    flex: 1;
+    margin: 0px 30px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 15px 15px 15px -10px #000000; 
+    box-shadow: 0px 0px 15px -10px 0, 0, 0, 0,75;
+}
+
+.featuredTitle{
+    font-size: 20px;
+}
+
+.featuredDataContainer{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.featuredRate{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.featuredDiff{
+    align-items: center;
+    margin-left: 20px;
+    display: flex;
+}
+
+.Calander{
+border-style: dotted;
+display: flex;
+}
+
+/* featuredIcon 
+font size 14
+marigin left 5px
+color green
+*/
+
+/* featuredIconnegative 
+font size 14
+marigin left 5px
+color red
+*/
+
+.featuredComp{
+    font-size: 15px;
+    color: gray;
+}
